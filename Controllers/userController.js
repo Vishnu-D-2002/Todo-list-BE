@@ -74,13 +74,13 @@ const userController = {
       const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-          user: "143.lovvable@gmail.com",
-          pass: "fnmxhibtwjgdzajq",
+          user: "143.unstopable@gmail.com",
+          pass: "zswy eiiy lqre zznf",
         },
       });
 
       const message = {
-        from: "143.lovvable@gmail.com",
+        from: "143.unstopable@gmail.com",
         to: email,
         subject: "Account Activation Link",
         text: `You are requested to Activate your Account ,Click below Link to Activate
@@ -138,13 +138,13 @@ const userController = {
       const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-          user: "143.lovvable@gmail.com",
-          pass: "fnmxhibtwjgdzajq",
+          user: "143.unstopable@gmail.com",
+          pass: "zswy eiiy lqre zznf",
         },
       });
 
       const message = {
-        from: "143.lovvable@gmail.com",
+        from: "143.unstopable@gmail.com",
         to: email,
         subject: "Password Reset Link",
         text: `You are requested to change the password of user login ,So please click this url
