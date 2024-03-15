@@ -18,7 +18,7 @@ const userController = {
         });
         await newUser.save();
         return res.status(200).send({
-          message: "Activation Mail Sent Successfull to your Mail",
+          message: "Activation Mail Sent Successfull to your Mail ,Check the(Inbox/Spam mails)",
           newUser,
         });
       } else {
